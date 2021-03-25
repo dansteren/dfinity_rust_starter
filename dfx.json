@@ -1,18 +1,20 @@
 {
   "canisters": {
-    "dfinity_rust_starter": {
-      "main": "src/dfinity_rust_starter/main.mo",
-      "type": "motoko"
+    "greet": {
+      "build": "cargo build --target wasm32-unknown-unknown --package greet --release",
+      "candid": "canisters/greet/src/greet.did",
+      "type": "custom",
+      "wasm": "target/wasm32-unknown-unknown/release/greet.wasm"
     },
     "dfinity_rust_starter_assets": {
       "dependencies": [
-        "dfinity_rust_starter"
+        "greet"
       ],
       "frontend": {
-        "entrypoint": "src/dfinity_rust_starter_assets/public/index.js"
+        "entrypoint": "canisters/dfinity_rust_starter_assets/public/index.js"
       },
       "source": [
-        "src/dfinity_rust_starter_assets/assets",
+        "canisters/dfinity_rust_starter_assets/assets",
         "dist/dfinity_rust_starter_assets/"
       ],
       "type": "assets"

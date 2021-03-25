@@ -18,3 +18,15 @@ cd dfinity_rust_starter/
 dfx help
 dfx config --help
 ```
+
+# Requirements:
+
+1. Rust. See https://www.rust-lang.org/tools/install
+2. The rust wasm32 compilation target: `rustup target add wasm32-unknown-unknown`
+3. dfx. See https://sdk.dfinity.org/docs/quickstart/local-quickstart.html#download-and-install
+
+# Getting Started
+
+1. Git clone
+2. `dfx start`
+3. `dfx deploy`
