@@ -6,16 +6,16 @@
       "type": "custom",
       "wasm": "target/wasm32-unknown-unknown/release/graphql.wasm"
     },
-    "dfinity_rust_starter_assets": {
+    "frontend": {
       "dependencies": [
         "graphql"
       ],
       "frontend": {
-        "entrypoint": "canisters/dfinity_rust_starter_assets/public/index.js"
+        "entrypoint": "canisters/frontend/public/index.js"
       },
       "source": [
-        "canisters/dfinity_rust_starter_assets/assets",
-        "dist/dfinity_rust_starter_assets/"
+        "canisters/frontend/assets",
+        "dist/frontend/"
       ],
       "type": "assets"
     },
