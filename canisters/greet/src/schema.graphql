@@ -1,0 +1,8 @@
+type File {
+  contents: String
+  createdAt: Date!
+  fileName: Boolean!
+  id: String!
+  size: Int!
+  updatedAt: Date!
+}

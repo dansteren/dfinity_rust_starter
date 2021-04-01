@@ -42,7 +42,7 @@ function generateWebpackConfigForCanister(name, info) {
     node: {
       fs: "empty"
     },
-    devtool: "source-map",
+    devtool: undefined, // this used to say "source-map", but the file was over 2MB
     optimization: {
       minimize: true,
       minimizer: [new TerserPlugin()],

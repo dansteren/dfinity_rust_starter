@@ -18,6 +18,18 @@
         "dist/dfinity_rust_starter_assets/"
       ],
       "type": "assets"
+    },
+    "playground": {
+      "dependencies": [
+        "greet"
+      ],
+      "frontend": {
+        "entrypoint": "canisters/playground/index.js"
+      },
+      "source": [
+        "dist/playground/"
+      ],
+      "type": "assets"
     }
   },
   "defaults": {
