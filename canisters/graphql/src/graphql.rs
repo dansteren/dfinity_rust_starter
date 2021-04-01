@@ -1,3 +1,3 @@
 use sudograph::graphql_database;
 
-graphql_database!("canisters/greet/src/schema.graphql");
+graphql_database!("canisters/graphql/src/schema.graphql");

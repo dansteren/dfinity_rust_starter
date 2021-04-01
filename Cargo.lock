@@ -663,6 +663,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "graphql"
+version = "0.1.0"
+dependencies = [
+ "ic-cdk",
+ "ic-cdk-macros",
+ "serde",
+ "sudograph",
+]
+
+[[package]]
 name = "graphql-parser"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -670,16 +680,6 @@ checksum = "d1abd4ce5247dfc04a03ccde70f87a048458c9356c7e41d21ad8c407b3dde6f2"
 dependencies = [
  "combine",
  "thiserror",
-]
-
-[[package]]
-name = "greet"
-version = "0.1.0"
-dependencies = [
- "ic-cdk",
- "ic-cdk-macros",
- "serde",
- "sudograph",
 ]
 
 [[package]]

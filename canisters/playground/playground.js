@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import GraphiQL from 'graphiql';
-import graphql from 'ic:canisters/greet';
+import graphql from 'ic:canisters/graphql';
 import { parse } from 'graphql';
 
 setTimeout(() => {

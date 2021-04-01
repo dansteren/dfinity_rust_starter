@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Sudograph - creates graphql calls from a schema file
 - Graphql Playground - app for easily interacting with the graphql api
 
+### Changed
+
+- Greet canister to "Graphql"
+
 ### Removed
 
 - Sourcemaps - The playground canister files were to large otherwise

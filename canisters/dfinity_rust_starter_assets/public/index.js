@@ -1,5 +1,5 @@
-import greet from 'ic:canisters/greet';
+import graphql from 'ic:canisters/graphql';
 
-greet.greet(window.prompt("Enter your name:")).then(greeting => {
-  window.alert(greeting);
+graphql.graphql_query(window.prompt("Enter your graphql query:")).then(response => {
+  window.alert(response);
 });
