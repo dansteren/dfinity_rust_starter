@@ -1,14 +1,14 @@
 {
   "canisters": {
-    "greet": {
-      "build": "cargo build --target wasm32-unknown-unknown --package greet --release",
-      "candid": "canisters/greet/src/greet.did",
+    "graphql": {
+      "build": "cargo build --target wasm32-unknown-unknown --package graphql --release",
+      "candid": "canisters/graphql/src/graphql.did",
       "type": "custom",
-      "wasm": "target/wasm32-unknown-unknown/release/greet.wasm"
+      "wasm": "target/wasm32-unknown-unknown/release/graphql.wasm"
     },
     "dfinity_rust_starter_assets": {
       "dependencies": [
-        "greet"
+        "graphql"
       ],
       "frontend": {
         "entrypoint": "canisters/dfinity_rust_starter_assets/public/index.js"
@@ -21,7 +21,7 @@
     },
     "playground": {
       "dependencies": [
-        "greet"
+        "graphql"
       ],
       "frontend": {
         "entrypoint": "canisters/playground/index.js"

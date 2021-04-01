@@ -1,6 +1,6 @@
 [workspace]
 members = [
-  "canisters/greet",
+  "canisters/graphql",
 ]
 
 [profile.release]
