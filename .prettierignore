@@ -1,0 +1,6 @@
+/.dfx
+dist/
+node_modules/
+target/
+*.lock
+package-lock.json

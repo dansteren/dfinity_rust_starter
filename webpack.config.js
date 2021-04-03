@@ -40,7 +40,7 @@ function generateWebpackConfigForCanister(name, info) {
       index: path.join(__dirname, info.frontend.entrypoint),
     },
     node: {
-      fs: "empty"
+      fs: "empty",
     },
     devtool: undefined, // this used to say "source-map", but the file was over 2MB
     optimization: {

@@ -7,28 +7,19 @@
       "wasm": "target/wasm32-unknown-unknown/release/graphql.wasm"
     },
     "frontend": {
-      "dependencies": [
-        "graphql"
-      ],
+      "dependencies": ["graphql"],
       "frontend": {
         "entrypoint": "canisters/frontend/public/index.js"
       },
-      "source": [
-        "canisters/frontend/assets",
-        "dist/frontend/"
-      ],
+      "source": ["canisters/frontend/assets", "dist/frontend/"],
       "type": "assets"
     },
     "playground": {
-      "dependencies": [
-        "graphql"
-      ],
+      "dependencies": ["graphql"],
       "frontend": {
         "entrypoint": "canisters/playground/index.js"
       },
-      "source": [
-        "dist/playground/"
-      ],
+      "source": ["dist/playground/"],
       "type": "assets"
     }
   },

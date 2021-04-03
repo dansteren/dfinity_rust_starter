@@ -1,4 +1,4 @@
-import './playground.js';
+import "./playground.js";
 
 // TODO get rid of this file so that we do not confuse people, just manually do the dom calls
 document.write(`
